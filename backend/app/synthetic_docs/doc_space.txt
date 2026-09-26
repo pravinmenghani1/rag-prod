@@ -1,0 +1,12 @@
+Title: Space Exploration: Past, Present, and Future
+ID: doc_space
+
+Space exploration began with the Space Race between the US and Soviet Union during the Cold War. The Soviet Union launched Sputnik 1 in 1957, the first artificial satellite, followed by Yuri Gagarin's historic orbit of Earth in 1961. The US responded with the Apollo program, achieving the first crewed moon landing on July 20, 1969, when Neil Armstrong and Buzz Aldrin walked on the lunar surface.
+
+Robotic exploration has dramatically expanded our knowledge of the solar system. NASA's Voyager 1, launched in 1977, is now in interstellar space, over 23 billion km from Earth. Mars rovers — Sojourner, Spirit, Opportunity, Curiosity, and Perseverance — have analyzed Martian soil, atmosphere, and geology, finding evidence that Mars once had liquid water.
+
+The International Space Station (ISS), continuously inhabited since 2000, is a collaboration between NASA, Roscosmos, ESA, JAXA, and CSA. It serves as a microgravity research laboratory studying human health, materials science, and Earth observation.
+
+The 2020s mark a new era of commercial spaceflight. SpaceX's Falcon 9 and Falcon Heavy rockets made orbital access cheaper through reusable boosters. Crew Dragon carries astronauts to the ISS. NASA's Artemis program aims to return humans to the Moon by the mid-2020s as a stepping stone to Mars. Blue Origin and Virgin Galactic are developing space tourism.
+
+Key challenges for long-duration spaceflight include radiation exposure, bone and muscle loss in microgravity, psychological effects of isolation, and life support over multi-year journeys to Mars.

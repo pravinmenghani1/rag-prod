@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+
+# Env / secrets
+.env
+.env.*
+*.key
+*.pem
+secrets.json
+credentials.json
+
+# Node
+node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Docker
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp

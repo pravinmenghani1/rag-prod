@@ -1,0 +1,12 @@
+Title: Quantum Computing Explained
+ID: doc_quantum
+
+Quantum computing harnesses the principles of quantum mechanics to perform computations that are infeasible for classical computers. While a classical bit holds either 0 or 1, a quantum bit (qubit) can exist in a superposition of both states simultaneously, exponentially expanding the computational state space.
+
+Two key quantum phenomena enable quantum advantage. Superposition allows qubits to represent multiple states at once. Entanglement links two or more qubits so the state of one instantly influences the other, regardless of distance. Quantum interference amplifies paths leading to correct answers and cancels wrong ones.
+
+Quantum algorithms can solve certain problems dramatically faster than classical algorithms. Shor's algorithm factors large integers in polynomial time, threatening RSA encryption. Grover's algorithm searches unsorted databases in O(√N) time versus classical O(N). Quantum simulation can model molecular interactions for drug discovery and materials science.
+
+Current quantum computers, called Noisy Intermediate-Scale Quantum (NISQ) devices, have 50–1000 qubits but are prone to decoherence and gate errors. Major players include IBM (Eagle, Heron processors), Google (Sycamore), and IonQ. Error correction codes like the surface code require hundreds of physical qubits per logical qubit, meaning fault-tolerant quantum computing remains years away.
+
+Applications being actively researched include optimization problems in logistics and finance, cryptography, quantum chemistry, and machine learning acceleration.

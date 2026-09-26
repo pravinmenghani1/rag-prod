@@ -1,0 +1,52 @@
+{
+  "queries": [
+    {
+      "id": "q1",
+      "query": "What causes climate change and what are its effects?",
+      "relevant_doc_ids": ["doc_climate"],
+      "relevant_keywords": ["greenhouse", "CO2", "fossil fuels", "sea levels", "IPCC", "emissions"]
+    },
+    {
+      "id": "q2",
+      "query": "How does machine learning work and what are its types?",
+      "relevant_doc_ids": ["doc_ml"],
+      "relevant_keywords": ["supervised", "unsupervised", "reinforcement", "neural networks", "overfitting", "training data"]
+    },
+    {
+      "id": "q3",
+      "query": "What is quantum computing and how is it different from classical computing?",
+      "relevant_doc_ids": ["doc_quantum"],
+      "relevant_keywords": ["qubit", "superposition", "entanglement", "Shor", "NISQ", "decoherence"]
+    },
+    {
+      "id": "q4",
+      "query": "What are macronutrients and why are they important?",
+      "relevant_doc_ids": ["doc_nutrition"],
+      "relevant_keywords": ["carbohydrates", "proteins", "fats", "calories", "amino acids", "energy"]
+    },
+    {
+      "id": "q5",
+      "query": "How was the internet invented and what is TCP/IP?",
+      "relevant_doc_ids": ["doc_internet"],
+      "relevant_keywords": ["ARPANET", "TCP/IP", "packet switching", "Berners-Lee", "HTTP", "DNS"]
+    },
+    {
+      "id": "q6",
+      "query": "What are the challenges of long-duration space travel to Mars?",
+      "relevant_doc_ids": ["doc_space"],
+      "relevant_keywords": ["radiation", "microgravity", "bone loss", "life support", "Mars", "isolation"]
+    },
+    {
+      "id": "q7",
+      "query": "What is deep learning and how do neural networks learn?",
+      "relevant_doc_ids": ["doc_ml"],
+      "relevant_keywords": ["deep learning", "neural networks", "CNN", "transformer", "layers", "representations"]
+    },
+    {
+      "id": "q8",
+      "query": "What is the Mediterranean diet and what are its health benefits?",
+      "relevant_doc_ids": ["doc_nutrition"],
+      "relevant_keywords": ["Mediterranean", "cardiovascular", "olive oil", "vegetables", "fish", "diabetes"]
+    }
+  ]
+}

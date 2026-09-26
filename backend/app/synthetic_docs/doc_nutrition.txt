@@ -1,0 +1,12 @@
+Title: Nutrition and Human Health
+ID: doc_nutrition
+
+Nutrition is the process by which the body takes in and uses food to sustain life, grow, and function optimally. Macronutrients — carbohydrates, proteins, and fats — provide energy and structural material. Micronutrients — vitamins and minerals — regulate metabolism and physiological processes.
+
+Carbohydrates are the body's primary energy source, providing 4 kcal per gram. Simple carbs (sugars) digest quickly; complex carbs (starch, fiber) release energy slowly and support gut health. Proteins, also 4 kcal/g, supply amino acids used to build muscle, enzymes, and hormones. The nine essential amino acids must come from diet. Fats provide 9 kcal/g and are vital for hormone production, cell membranes, and absorbing fat-soluble vitamins (A, D, E, K).
+
+The Mediterranean diet — rich in vegetables, whole grains, legumes, fish, and olive oil — is consistently linked to reduced risk of cardiovascular disease, type 2 diabetes, and cognitive decline. Diets high in ultra-processed foods, saturated fats, and added sugars increase inflammation and chronic disease risk.
+
+Key micronutrients include iron (oxygen transport), calcium (bone density), vitamin D (immune function, calcium absorption), and B12 (nerve function, red blood cell formation). Deficiencies in these are common globally, especially in populations with limited dietary diversity.
+
+Hydration is critical: the human body is about 60% water. Even mild dehydration (1–2% body weight) impairs cognitive performance and physical endurance. Adults generally require 2–3 liters of fluid per day depending on activity and climate.

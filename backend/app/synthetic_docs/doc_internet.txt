@@ -1,0 +1,12 @@
+Title: History of the Internet
+ID: doc_internet
+
+The internet evolved from ARPANET, a 1969 US Defense Department project that first connected four university computers. The goal was a decentralized communication network resilient to nuclear attack. Packet switching — breaking data into small packets routed independently — was the key innovation enabling this.
+
+In 1983, ARPANET adopted TCP/IP (Transmission Control Protocol / Internet Protocol), the suite of rules governing how data travels across networks. This standardization allowed diverse networks to interconnect, creating the modern internet. The Domain Name System (DNS) was introduced in 1984, replacing numeric IP addresses with human-readable names like example.com.
+
+Tim Berners-Lee invented the World Wide Web in 1989 at CERN. He proposed HTTP (HyperText Transfer Protocol) for transferring web pages, HTML (HyperText Markup Language) for structuring content, and URLs (Uniform Resource Locators) for addressing resources. The first web browser, Mosaic, launched in 1993, making the web accessible to non-technical users and triggering mass adoption.
+
+The 1990s dot-com boom saw explosive growth in internet businesses. Many failed in the 2000–2001 crash, but survivors like Amazon and Google reshaped commerce and information. Web 2.0 (mid-2000s) introduced user-generated content via social networks, wikis, and blogs. Mobile internet, accelerated by the iPhone (2007) and 4G networks, made connectivity ubiquitous.
+
+Today over 5 billion people use the internet. Key challenges include privacy, misinformation, digital divide, cybersecurity, and the environmental impact of data centers.

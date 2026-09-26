@@ -1,0 +1,12 @@
+Title: Fundamentals of Machine Learning
+ID: doc_ml
+
+Machine learning (ML) is a branch of artificial intelligence that enables computers to learn from data without being explicitly programmed. Instead of following hand-written rules, ML models identify patterns in training data and generalize to new, unseen examples.
+
+The three main learning paradigms are supervised learning, unsupervised learning, and reinforcement learning. In supervised learning, models are trained on labeled examples — input-output pairs — to predict outputs for new inputs. Common algorithms include linear regression for continuous outputs, logistic regression for binary classification, decision trees, random forests, and support vector machines.
+
+Unsupervised learning finds structure in unlabeled data. Clustering algorithms like k-means group similar data points, while dimensionality reduction techniques like PCA compress data while preserving variance. Reinforcement learning trains agents to maximize cumulative reward by interacting with an environment.
+
+Deep learning, a subfield of ML, uses artificial neural networks with many layers to learn hierarchical representations. Convolutional neural networks (CNNs) excel at image recognition; recurrent neural networks (RNNs) and transformers handle sequential data like text.
+
+Key challenges in ML include overfitting (model memorizes training data), underfitting (model too simple), data quality, and interpretability. Regularization techniques like L1/L2 penalties and dropout help prevent overfitting. Cross-validation is used to estimate model performance reliably.

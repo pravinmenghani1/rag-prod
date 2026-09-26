@@ -1,0 +1,10 @@
+Title: Introduction to Climate Change
+ID: doc_climate
+
+Climate change refers to long-term shifts in global temperatures and weather patterns. While natural factors like volcanic eruptions and solar variation have historically driven climate change, since the mid-20th century human activities have been the dominant cause.
+
+The primary driver is the greenhouse effect. Gases such as carbon dioxide (CO2), methane (CH4), and nitrous oxide (N2O) trap heat from the sun in Earth's atmosphere. When humans burn fossil fuels like coal, oil, and natural gas, they release large amounts of CO2. Deforestation amplifies this by reducing the number of trees that absorb CO2.
+
+Current impacts include rising sea levels (about 3.3 mm per year), more frequent and intense heatwaves, shifting precipitation patterns, and accelerating ice melt in the Arctic and Antarctic. The Intergovernmental Panel on Climate Change (IPCC) warns that keeping warming below 1.5°C requires cutting global emissions by 45% by 2030.
+
+Mitigation strategies include transitioning to renewable energy sources such as solar and wind, improving energy efficiency, electrifying transportation, and capturing carbon through afforestation and direct air capture technologies. Adaptation strategies include building flood defenses, developing drought-resistant crops, and updating infrastructure for extreme weather.
