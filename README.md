@@ -163,16 +163,7 @@ For a real production reranker, the recommendation depends on your scale and lat
 | BAAI/bge-reranker-v2-m3  | `~570M` | Much stronger, multilingual, still self-hostable |
 | mixedbread-ai/mxbai-rerank-large-v1 | `~435M` | Strong MS MARCO scores, popular in prod  |
 
-  
-  ┌───────────────────────────────────────┬────────┬──────────────────────────────────────────────────┐
-  │ Model                                 │ Params │ Notes                                            │
-  ├───────────────────────────────────────┼────────┼──────────────────────────────────────────────────┤
-  │ cross-encoder/ms-marco-MiniLM-L-12-v2 │ ~33M   │ Same family, 12 layers, better accuracy          │
-  ├───────────────────────────────────────┼────────┼──────────────────────────────────────────────────┤
-  │ BAAI/bge-reranker-v2-m3               │ ~570M  │ Much stronger, multilingual, still self-hostable │
-  ├───────────────────────────────────────┼────────┼──────────────────────────────────────────────────┤
-  │ mixedbread-ai/mxbai-rerank-large-v1   │ ~435M  │ Strong MS MARCO scores, popular in prod          │
-  └───────────────────────────────────────┴────────┴──────────────────────────────────────────────────┘
+
   
   ## Managed API rerankers (no infra to run)
   
