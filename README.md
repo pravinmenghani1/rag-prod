@@ -151,3 +151,40 @@ Edit `backend/app/config.py` to tune:
 - `TOP_K` — number of candidates retrieved per method
 - `RERANK_TOP_N` — chunks passed to LLM after reranking
 - `LLM_MODEL` — swap to `mistral:7b`, `gemma3:4b`, etc.
+
+## One side note
+
+For a real production reranker, the recommendation depends on your scale and latency budget:
+  
+  ## Drop-in upgrades (still local/self-hosted)
+  
+  ┌───────────────────────────────────────┬────────┬──────────────────────────────────────────────────┐
+  │ Model                                 │ Params │ Notes                                            │
+  ├───────────────────────────────────────┼────────┼──────────────────────────────────────────────────┤
+  │ cross-encoder/ms-marco-MiniLM-L-12-v2 │ ~33M   │ Same family, 12 layers, better accuracy          │
+  ├───────────────────────────────────────┼────────┼──────────────────────────────────────────────────┤
+  │ BAAI/bge-reranker-v2-m3               │ ~570M  │ Much stronger, multilingual, still self-hostable │
+  ├───────────────────────────────────────┼────────┼──────────────────────────────────────────────────┤
+  │ mixedbread-ai/mxbai-rerank-large-v1   │ ~435M  │ Strong MS MARCO scores, popular in prod          │
+  └───────────────────────────────────────┴────────┴──────────────────────────────────────────────────┘
+  
+  ## Managed API rerankers (no infra to run)
+  
+  - Cohere Rerank 3 — best-in-class accuracy, simple API call, pay-per-use. Most teams reach for this first.
+  - Jina Reranker v2 — good accuracy, generous free tier, multilingual
+  - Voyage AI rerank-2 — strong on long documents
+  
+  ## What changes in the current setup if you switch:
+  
+  The reranker.py file is well-isolated — you'd only change the CrossEncoder(...) model name, or swap to an HTTP call
+  for a managed API. The rest of the pipeline stays the same.
+  
+  ## Practical recommendation:
+  
+  - If you're staying self-hosted → BAAI/bge-reranker-v2-m3 on a GPU instance. It's the community standard right now.
+  - If you want managed + zero ops → Cohere Rerank 3. One API call replaces the entire CrossEncoder inference block.
+  - If latency is critical (< 50ms reranking) → stick with a MiniLM variant but run it on GPU, or use ONNX-quantized
+  version of the same model (svilupp/onnx-cross-encoders has INT8 quantized versions that are 3–4x faster on CPU).
+  
+  The current ms-marco-MiniLM-L-6-v2 is fine for a demo or low-traffic system, but its accuracy starts lagging behind
+  on domain-specific or complex queries.
